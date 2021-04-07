@@ -23,13 +23,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code
-      - yarn run build
+      - tsc
+      - yarn build-client
   post_build:
     commands:
       - echo Build completed on `date`
-      - echo Distributing to S3...
-      - aws s3 sync dist/develop s3://[アップロード用のS3バケット名] --delete --acl public-read
 artifacts:
   files:
     - dist/**/*

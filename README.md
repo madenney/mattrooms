@@ -2,10 +2,10 @@
 ### The Social Media Platform
 
 This project has two motivations: 
-1. This is intended to be a demonstration of my skill as a full stack developer.
-2. I want to be in full control of my communication platform, so I will use this as my primary method of communication.
+1. This is a demonstration of my skill as a full stack developer.
+2. I want to be in full control of my communication platform, so I will try to use this as my primary method of communication.
 
-This was built following a Test-Driven Development philosophy. Every component is modular and individually unit-tested.
+This was built following the Test-Driven Development philosophy.
 
 
 ## Front End:

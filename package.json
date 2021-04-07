@@ -1,0 +1,28 @@
+{
+  "name": "mattrooms",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "repository": "https://github.com/madenney/mattrooms.git",
+  "author": "Matt Denney",
+  "license": "MIT",
+  "scripts": {
+    "full-start": "concurrently \"yarn server\" \"yarn start-client\"",
+    "start": "tsc && node dist/server.js",
+    "lint": "./node_modules/.bin/tslint",
+    "test": "echo \"No backend test setup yet\"",
+    "build-client": "cd client && yarn build",
+    "start-client": "cd client && yarn start",
+    "test-client": "cd client && yarn test"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "concurrently": "^6.0.1",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.3"
+  }
+}

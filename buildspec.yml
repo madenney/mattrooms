@@ -2,9 +2,9 @@ version: 0.2
 
 phases:
   install:
-      - echo Installation Phase
-      - yarn install
-      - cd client && yarn install
+    - echo Installation Phase
+    - yarn install
+    - cd client && yarn install
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...

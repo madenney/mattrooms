@@ -6,7 +6,7 @@
   "author": "Matt Denney",
   "license": "MIT",
   "scripts": {
-    "full-start": "concurrently \"yarn server\" \"yarn start-client\"",
+    "full-start": "concurrently \"yarn start\" \"yarn start-client\"",
     "start": "tsc && node dist/server.js",
     "lint": "./node_modules/.bin/tslint",
     "test": "echo \"No backend test setup yet\"",

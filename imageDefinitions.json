@@ -1,4 +1,1 @@
-{
-    "name": "container",
-    "imageUri": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest"
-}
+{"name": "container","imageUri": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest"}

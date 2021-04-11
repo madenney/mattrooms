@@ -6,6 +6,11 @@
       "image": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest",
       "essential": true,
       "memory": 128,
-      "port": 3001
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 3001 
+        }
+      ]
     }]
   }

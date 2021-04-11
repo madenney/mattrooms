@@ -2,7 +2,7 @@
     "AWSEBDockerrunVersion": "1",
     "Image": {
       "Name": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest",
-      "Update": true
+      "Update": "true"
     },
     "Ports": [
       {

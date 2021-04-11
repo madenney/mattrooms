@@ -1,16 +1,11 @@
 {
-    "AWSEBDockerrunVersion": "1", 
-    "containerDefinitions": [
-    {
-      "name": "mattrooms",
-      "image": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest",
-      "essential": true,
-      "memory": 128,
-      "portMappings": [
-        {
-          "hostPort": 3001,
-          "containerPort": 3001 
-        }
-      ]
-    }]
-  }
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "3001"
+      }
+    ]
+}

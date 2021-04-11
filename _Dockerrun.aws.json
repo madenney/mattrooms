@@ -5,6 +5,7 @@
       "name": "mattrooms",
       "image": "210613098414.dkr.ecr.us-west-2.amazonaws.com/mattrooms:Latest",
       "essential": true,
-      "memory": 128
+      "memory": 128,
+      "port": 3001
     }]
   }
